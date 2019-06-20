@@ -12,8 +12,13 @@
         <module>jpa-utilities</module>
     </modules>
 
-
     <packaging>pom</packaging>
+
+    <scm>
+        <developerConnection>scm:git:https://github.com/dhrub-git/maven-mm-project.git</developerConnection>
+        <url>https://github.com/dhrub-git/maven-mm-project.git</url>
+        <tag>HEAD</tag>
+    </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -21,6 +26,7 @@
         <java.version>8</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
+        <project.scm.id>github</project.scm.id>
     </properties>
 
     <build>
